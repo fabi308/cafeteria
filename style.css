@@ -22,6 +22,7 @@ ul {
   /*ativa a propriedade de alinhamento*/
   flex-direction: row;
   /*coloca os elementos na horizontal*/
+  font-size: 10px;
   
 }
 
@@ -71,6 +72,9 @@ nav {
     color: #ffff;
    
  }
+ .subi{
+  width: 800px;
+ }
 
  .banner-texto{
     align-items: center;
@@ -85,4 +89,74 @@ nav {
  border-radius: 10px;
  padding: 5px 10px;
  border: none;
+ }
+
+ .texto-abaixo-banner{
+align-items: center;
+    display: flex;
+    flex-direction: column;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+ 
+ 
+ }
+
+ .titulo1{
+  font-size: 50px;
+  color: #7a3611;
+  font-weight: bold;
+ }
+
+ .subtitulo1{
+  font-size: 20px;
+  text-align: center;
+ }
+
+ .opcoes{
+ display: flex;
+ flex-direction: row;
+ width: 700px;
+ justify-content: space-evenly;
+
+ }
+
+
+.card{
+  height: 200px;
+  width: 500px;
+  border: 1px solid black;
+  border-radius: 100px;
+   background-color: #7a3611;
+}
+
+.img-produto{
+width: 500px;
+height: 200px;
+}
+
+.card-img{
+  width: 500px;
+   height: 200px;
+}
+
+.card-estrutura{
+
+  height: 800px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.card-preco{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.valor{
+  color: #e07600;
+}
+ 
  }
